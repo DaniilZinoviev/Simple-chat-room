@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test Chat Room</title>
+
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="wrapper">
+        <section class="chat-field">
+          <div class="message" data-author="false">
+            <p>Welcome to ... here. How are you?</p>
+            <em>Chat Bot #0110</em>
+            <em>iRobot@gmail.com</em>
+          </div>
+          
+        </section>
+        <section class="user-input-field">
+            <form id="message-form">
+                <input type="text" name="name" placeholder="Name" >
+                <input type="email" name="email" placeholder="E-mail" required>
+                <textarea name="message" required></textarea><br>
+                <button type="submit" class="message-button">Send message</button>
+            </form>
+        </section>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
