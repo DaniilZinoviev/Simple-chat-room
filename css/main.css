@@ -96,3 +96,6 @@ body {
 .hidden {
   opacity: 0;
 }
+.chat-field {
+  background-color:red;
+}
